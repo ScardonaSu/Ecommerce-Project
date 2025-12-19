@@ -5,34 +5,52 @@ html {
   box-sizing: inherit;
 }
 
+/* Globales */
 
-
-h1{
+a{
+    text-decoration: none;
     color: #000;
 }
 
-h1 span{
-    color: #037bc0;
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-inline: auto;
 }
+
+
+/* Header y Navegacion */
+
+
 
 .nombre-sitio {
     margin-top: 100px;
     padding-bottom: 100px;
+    text-align: center;
 }
 
-.enlace {
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
+.nombre-sitio span{
     color: #037bc0;
 }
 
+.contenedor-navegacion{
+    border-top: 1px solid #e1e1e1;
 
-/* Box model */
-.sobre-nosotros{
-    background-color: red;
-    width: 200px;
-    padding: 25px;
+}
+
+.nav-princial {
+    /* border-color: #e1e1e1;
+    border-top-style: solid;
+    border-width: 1px; */
+    padding: 20px 0px;
+}
+
+.hero {
+
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
 }
 
 
