@@ -1,4 +1,9 @@
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 
 
@@ -10,8 +15,9 @@ h1 span{
     color: #037bc0;
 }
 
-.navegacion{
-
+.nombre-sitio {
+    margin-top: 100px;
+    padding-bottom: 100px;
 }
 
 .enlace {
@@ -22,7 +28,12 @@ h1 span{
 }
 
 
-
+/* Box model */
+.sobre-nosotros{
+    background-color: red;
+    width: 200px;
+    padding: 25px;
+}
 
 
 
