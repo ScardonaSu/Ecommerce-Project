@@ -1,11 +1,35 @@
 html {
   box-sizing: border-box;
+  font-size: 62.5%;  /*  un rem es 10px  */
+  
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+body{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
 /* Globales */
+h1,h2,h3{
+    font-family: "Playfair", serif;
+    margin: 0 0 5rem 0;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
 
 a{
     text-decoration: none;
@@ -13,13 +37,14 @@ a{
 }
 
 .contenedor {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
     margin-inline: auto;
 }
 
 img{
     max-width: 100%;
+    display: block;
 }
 
 
@@ -28,8 +53,7 @@ img{
 
 
 .nombre-sitio {
-    margin-top: 100px;
-    padding-bottom: 100px;
+    margin-top: 5rem;
     text-align: center;
 }
 
@@ -43,7 +67,7 @@ img{
 }
 
 .nav-princial {
-    padding: 20px 0px;
+    padding: 2rem 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -53,16 +77,39 @@ img{
     background-image: url(../img/principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    background-position: center center;
+    height: 55rem;
 }
 
 
 /* Categorias */
 
+.categorias{
+    padding-top: 5rem;
+}
+
+.categorias h2{
+    text-align: center;
+}
+
+.categoria a {
+    
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.categoria a:hover{
+    background-color: #037bc0;
+    color: #fff;
+    border-bottom-left-radius: 1reem;
+}
+
 .listado-categorias{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 2rem;
 }
 
 
