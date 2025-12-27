@@ -39,9 +39,6 @@ a{
 }
 
 .nav-princial {
-    /* border-color: #e1e1e1;
-    border-top-style: solid;
-    border-width: 1px; */
     padding: 20px 0px;
     display: flex;
     justify-content: space-between;
